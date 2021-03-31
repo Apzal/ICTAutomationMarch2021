@@ -1,4 +1,4 @@
-package Day0;
+package Day3ClassesObjectFinal;
 
 public class Day0 extends FinalKeyword{
     public static void main(String[] args) {

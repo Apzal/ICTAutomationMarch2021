@@ -1,4 +1,4 @@
-package Day0;
+package Day3ClassesObjectFinal;
 
 public class ObjectsAndClasses extends FinalKeyword{
     static int y = 6; // static variable
