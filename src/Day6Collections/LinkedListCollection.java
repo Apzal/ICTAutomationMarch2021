@@ -2,14 +2,14 @@ package Day6Collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
+import java.util.LinkedList;
 import java.util.ListIterator;
 
-public class ArrayListCollection {
+public class LinkedListCollection {
 
     public static void main(String[] args) {
 
-        ArrayList<Integer> list = new ArrayList<>();//ctrl+alt+v
+        LinkedList<Integer> list = new LinkedList<>();//ctrl+alt+v
         list.add(10);
         list.add(20);
         list.add(30);

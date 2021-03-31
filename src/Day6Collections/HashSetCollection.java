@@ -1,59 +1,60 @@
 package Day6Collections;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-public class LinkedListCollection {
+public class HashSetCollection {
 
     public static void main(String[] args) {
 
-        LinkedList<Integer> list = new LinkedList<>();//ctrl+alt+v
-        list.add(10);
-        list.add(20);
-        list.add(30);
-        list.add(30);
-        list.add(null);
-        list.add(null);
+        HashSet<Integer> set = new HashSet<>();//ctrl+alt+v
+        set.add(10);
+        set.add(20);
+        set.add(30);
+        set.add(30);
+        set.add(null);
+        set.add(null);
 
 
 
-        System.out.println(list);
+
+        System.out.println(set);
 
 
         System.out.println("------------------");
 
 
 
-        System.out.println("using for loop");
-        for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i));
-        }
+//        System.out.println("using for loop");
+//        for (int i = 0; i < set.size(); i++) {
+//            System.out.println(set.get(i));
+//        }
 //
 //        System.out.println("using foreach loop");
 //
-//        for (int numb:list) {
+//        for (int numb:set) {
 //            System.out.println(numb);
 //        }
 
         System.out.println("using iterator");
-        Iterator<Integer> iterator = list.iterator();
+        Iterator<Integer> iterator = set.iterator();
         while(iterator.hasNext()){
             System.out.println(iterator.next());
         }
 
 
-        System.out.println("using list iterator-Move Forward");
-        ListIterator<Integer> ListIterator = list.listIterator();
-        while(ListIterator.hasNext()){
-            System.out.println(ListIterator.next());
-        }
-
-        System.out.println("using list iterator-Move Backward");
-        while(ListIterator.hasPrevious()){
-            System.out.println(ListIterator.previous());
-        }
+//        System.out.println("using set iterator-Move Forward");
+//        ListIterator<Integer> ListIterator = set.listIterator();
+//        while(ListIterator.hasNext()){
+//            System.out.println(ListIterator.next());
+//        }
+//
+//        System.out.println("using set iterator-Move Backward");
+//        while(ListIterator.hasPrevious()){
+//            System.out.println(ListIterator.previous());
+//        }
 
 
     }

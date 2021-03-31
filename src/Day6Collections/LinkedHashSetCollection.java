@@ -2,14 +2,13 @@ package Day6Collections;
 
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.ListIterator;
+import java.util.LinkedHashSet;
 
-public class HashSetCollection {
+public class LinkedHashSetCollection {
 
     public static void main(String[] args) {
 
-        HashSet<Integer> set = new HashSet<>();//ctrl+alt+v
+        LinkedHashSet<Integer> set = new LinkedHashSet<>();//ctrl+alt+v
         set.add(10);
         set.add(20);
         set.add(30);

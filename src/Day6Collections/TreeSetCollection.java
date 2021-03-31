@@ -1,20 +1,20 @@
 package Day6Collections;
 
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
-public class LinkedHashSetCollection {
+public class TreeSetCollection {
 
     public static void main(String[] args) {
 
-        LinkedHashSet<Integer> set = new LinkedHashSet<>();//ctrl+alt+v
+        TreeSet<Integer> set = new TreeSet<>();//ctrl+alt+v
+        set.add(30);
         set.add(10);
         set.add(20);
         set.add(30);
-        set.add(30);
-        set.add(null);
-        set.add(null);
+//        set.add(null);
+//        set.add(null);
 
 
 
