@@ -1,4 +1,4 @@
-package Day0;
+package Day3ClassesObjectFinal;
 
 public /*final*/ class FinalKeyword{
     final int x =0;//final variable
